@@ -23,7 +23,7 @@ function App() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(formData); // Aquí puedes enviar los datos a tu servidor o realizar otras acciones
+    console.log(formData); 
   };
 
   return (
