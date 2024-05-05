@@ -13,6 +13,7 @@ function App() {
     agreeTerms: false
   });
 
+  
   const handleChange = (e) => {
     const { name, value, type, checked } = e.target;
     setFormData(prevData => ({
@@ -21,11 +22,13 @@ function App() {
     }));
   };
 
+  
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(formData); 
   };
 
+  
   return (
     <div className="App">
       <h1>Formulario de Registro</h1>
